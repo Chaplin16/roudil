@@ -1,4 +1,4 @@
-// carousel tee shirt men defilement
+// carousel tee shirt women / men defilement
 let items = document.querySelectorAll('.carousel .carousel-item')
 
 items.forEach((el) => {
@@ -25,7 +25,7 @@ let secondCarousel = document.querySelector('.secondCarousel');
         secondCarousel.innerHTML += 
               `<div class=" carousel-item ${element.id == 1 ? "active" : ""}">
                   <div class="col-md-3">
-                      <div class="card" id="${element.id}">
+                      <div class="card m-auto" id="${element.id}">
                           <div class="card-img">
                               <img src="${element.attachment}" class="img-fluid" alt="${element.alt}">
                           </div>
