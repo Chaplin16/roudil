@@ -81,6 +81,26 @@ nav {
   color: #000;
 }
 
+.photo img {
+  width: 230px;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.photo img:hover {
+  filter: brightness(75%);
+  -webkit-filter: brightness(75%);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
 hr {
   margin: 3rem !important;
 }
@@ -123,6 +143,7 @@ hr {
 
 .footer .mermaid {
   width: 4rem;
+  margin-bottom: -5px;
 }
 
 .footer a {
@@ -141,8 +162,8 @@ hr {
     font-size: 1.5rem;
     margin-left: -0.8rem !important;
   }
-  .card-img {
-    margin: auto !important;
+  .photo img {
+    width: 150px;
   }
   .footer .copyright {
     width: 80%;

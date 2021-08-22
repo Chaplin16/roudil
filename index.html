@@ -40,7 +40,7 @@
         <nav class="navbar navbar-expand-lg w-100 position-fixed">
             <div class="container-fluid">
                 <div>
-                    <h1><a class="navbar-brand fw-bolder" href="index.html">Roudil Bruno</a></h1>
+                    <a class="navbar-brand fw-bolder" href="index.html">Roudil Bruno</a>
                     <p class="phone text-white fw-bolder mb-0">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                             class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -63,9 +63,6 @@
                             <a class="nav-link text-white me-2" href="index.html#shirt">Textile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white me-2" href="creations.html">Autres créations</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-white" href="info.html">Info</a>
                         </li>
                     </ul>
@@ -74,15 +71,28 @@
         </nav>
     </header>
 
-    <main class="w-100">
+    <main>
         <h1 class="title text-center ms-3 mb-3"> ROUDIL<div id="turn" class="text-dark d-inline-block fw-bolder ps-2"> on </div> TEXTILE</h1>
-        <img class="background img-fluid m-auto d-block " src="images/paint-vocabulary.jpg">
-        <div class="link text-center fw-bolder mb-4 fs-1 pt-3">
-            <p>Retrouvez toutes mes créations sur</p>
+        <img class="background img-fluid m-auto d-block " src="images/paint/paint-vocabulary.jpg">
+        <div class="link text-center fw-bolder mb-5 fs-1 pt-3">
+            <p class="mb-0">Retrouvez toutes mes créations sur</p>
             <a class="text-decoration-none" href="https://www.brunoroudil.com/"> brunoroudil.com </a>
         </div>
-        
-        <div class="container text-center my-3" id="shirt">
+
+        <!-- 2 link-images tee shirt man and woman -->
+        <div class="d-flex justify-content-center ">
+            <a class="card photo overflow-hidden rounded text-white mb-3 me-2" href="index.html#shirtWomen">
+                <img src="images/tee-shirt-women/ORTHO_Femme_front_T-Shirt_Bruno_Roudil.jpg" alt="mannequin portant une chemise">
+                <h3 class=" position-absolute top-50 shirt card-title fw-bolder text-white text-center">TEE-SHIRT FEMME</h3>
+            </a>
+            <a class="card photo overflow-hidden rounded text-white mb-3 ms-2" href="index.html#shirtMen">
+                <img src="images/tee-shirt-men/Oh_Oh_Oh_Noire_T-Shirt.jpg" alt="mannequin portant une chemise">
+                <h3 class="position-absolute top-50 card-title fw-bolder text-white text-center" id="shirtWomen">TEE-SHIRT HOMME</h3>
+            </a>
+        </div>
+
+        <!-- first carousel tee shirt woman -->
+        <div class="container text-center my-3" >
             <h2 class="font-weight-light pb-3">Tee shirt Femme</h2>
             <div class="row mx-auto my-auto justify-content-center">
                 <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -187,22 +197,20 @@
                     </a>
                 </div>
             </div>
-            <h3 class="mt-2 fw-light ">
+            <h3 class="mt-2 fw-light" id="shirtMen">
                 <a class="text-decoration-none text-dark command" href="https://www.brunoroudil.com/shop"> Plus de détails, c'est par <span class="text-danger">ici</span> ! </a>
             </h3>
         </div>
 
         <hr>
-
+        <!-- second caroussel tee shirt man -->
         <div class="container text-center my-3">
             <h2 class="font-weight-light">Tee shirt Homme</h2>
             <div class="row mx-auto my-auto justify-content-center">
                 <div id="recipeCarousel2" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner secondCarousel" role="listbox">
 
-
                        <!-- insertion via index.js et teeshirt_men.js/ teeshirt_women.js-->
-    
 
                     </div>
                     <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel2" role="button" data-bs-slide="prev">
@@ -219,15 +227,14 @@
         </div>
         
         <hr>
+        <!-- third carousel of patterns -->
         <div class="container text-center my-3">
             <h2 class="font-weight-light">Motifs au choix</h2>
             <div class="row mx-auto my-auto justify-content-center">
                 <div id="recipeCarousel3" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner thirdCarousel" role="listbox">
 
-
                        <!-- insertion via index.js et teeshirt_men.js/ teeshirt_women.js-->
-    
 
                     </div>
                     <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel3" role="button" data-bs-slide="prev">
@@ -243,13 +250,13 @@
             </h3>
         </div>
         <hr>
-
+        <!-- photos of sculptures -->
         <div>
             <h4 class="text-center">Les Gardiens du sourire</h4>
             <div class="d-flex justify-content-center mb-3 flex-wrap ">
-                <img class="p-1" src="images/gardien_du_sourire_black.png" alt="sculture des gardiens du sourire noir">
-                <img class="p-1" src="images/gardien_du_sourire_grey.png" alt="sculture des gardiens du sourire grise">
-                <img class="p-1" src="images/gardien_du_sourire_red.png" alt="sculture des gardiens du sourire rouge">
+                <img class="p-1 img-fluid" src="images/gardien_du_sourire_black.png" alt="sculture des gardiens du sourire noir">
+                <img class="p-1 img-fluid" src="images/gardien_du_sourire_grey.png" alt="sculture des gardiens du sourire grise">
+                <img class="p-1 img-fluid" src="images/gardien_du_sourire_red.png" alt="sculture des gardiens du sourire rouge">
             </div>
         </div>
 
@@ -261,11 +268,11 @@
             <img class=" h-auto pt-3 pb-3" src="images/etiquette-FR-kit-com.png"
                 alt="site financé par le plan relance du gouvernement">
             <div class="formality">
-                <p class="copyright  text-white text-center m-auto">
+                <p class="copyright text-white text-center m-auto">
                     © 2021 ROUDIL Bruno. Tous droits réservés
                 </p>
-                <div class="d-flex justify-content-center pb-3 pt-2">
-                    <img src="images/mermaidSmall-red.png" class="mermaid pe-2 h-auto"
+                <div class="d-flex align-items-center pb-3 pt-3 flex-column">
+                    <img src="images/mermaidSmall-red.png" class="mermaid ms-2 h-auto"
                         alt="logo de la sirene d'aurore Creation Web" />
                     <a class="text-decoration-none" href="https://aurorecreationweb.fr"> Aurore Creation Web </a>
                 </div>

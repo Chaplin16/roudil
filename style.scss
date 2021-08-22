@@ -73,6 +73,21 @@ nav {
     }
 }
 
+.photo img{
+    width: 230px;
+    height: 260px;
+    object-fit: cover;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    transition: transform 300ms;
+    &:hover {
+        filter: brightness(75%);
+        -webkit-filter: brightness(75%);
+        transform:scale(1.06);
+    }
+
+}
+
 //carsousel items multiples
 hr{
   margin:3rem!important;
@@ -104,6 +119,7 @@ transform: translateX(0);
     flex-direction: column;
     & .mermaid{
         width:4rem; 
+        margin-bottom:-5px;
     }
     & a{
         color: $main--color!important; 
@@ -122,13 +138,13 @@ transform: translateX(0);
       font-size: 1.5rem;
       margin-left: -0.8rem!important;
     }
-    .card-img{
-      margin: auto!important;
+
+    .photo img{
+        width: 150px;
     }
-    .footer{
-        & .copyright{
-            width: 80%;
-        }
+    .footer .copyright{
+        width: 80%;
+        
     }
     .schedule{
         font-size: 1.7rem;
