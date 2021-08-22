@@ -32,4 +32,20 @@ let secondCarousel = document.querySelector('.secondCarousel');
                       </div>
                   </div>
               </div>`
-    })
+})
+
+// image carousel teeshit men
+let thirdCarousel = document.querySelector('.thirdCarousel');
+    teeshirt_design.forEach(function (element) {
+    
+        thirdCarousel.innerHTML += 
+              `<div class=" carousel-item ${element.id == 1 ? "active" : ""}">
+                  <div class="col-md-3">
+                      <div class="card m-auto" id="${element.id}">
+                          <div class="card-img">
+                              <img src="${element.attachment}" class="img-fluid" alt="${element.alt}">
+                          </div>
+                      </div>
+                  </div>
+              </div>`
+})
