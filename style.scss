@@ -98,6 +98,7 @@ nav {
 hr{
   margin:3rem!important;
 }
+
 .card{
   border: 0px solid transparent!important;
 }
@@ -135,12 +136,10 @@ hr{
     .title{
       font-size: 2.3rem;
     }  
-
     .title #turn{
       font-size: 1.5rem;
       margin-left: -0.8rem!important;
     }
-
     .photo img{
         width: 150px;
     }
@@ -159,10 +158,6 @@ hr{
     }
 }
 
-
-
-
-/* medium and up screens */
 @media (min-width: 768px) {
   .title{
       padding-top:8rem;

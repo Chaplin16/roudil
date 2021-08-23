@@ -187,7 +187,6 @@ hr {
   }
 }
 
-/* medium and up screens */
 @media (min-width: 768px) {
   .title {
     padding-top: 8rem;
