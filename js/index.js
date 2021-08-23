@@ -1,51 +1,55 @@
-// carousel tee shirt women / men defilement
-let items = document.querySelectorAll('.carousel .carousel-item')
+function carousel(selector, data) {
+    let element = document.querySelector(selector);
+    data.forEach(function(d) {
+        element.innerHTML += 
+        `<a href="${d.link}" class="card-img"><img src="${d.attachment}" alt="${d.alt}" class="img-fluid"></a>`;
+    });
+    $(element).slick({
+        centerMode: true,
+        centerPadding: '100px',
+        slidesToShow: 4,
+        arrows: true,
+        adaptiveHeight: true,
+        responsive: [{
+                breakpoint: 1300,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3.5
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2.5
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1.5
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+}
 
-items.forEach((el) => {
-    const minPerSlide = 4
-    let next = el.nextElementSibling
-    for (var i=1; i<minPerSlide; i++) {
-        if (!next) {
-            // wrap carousel by using first child
-        	next = items[0]
-      	}
-        let cloneChild = next.cloneNode(true)
-        el.appendChild(cloneChild.children[0])
-        next = next.nextElementSibling
-    }
-})
-
-
-
-
-// image carousel teeshit men
-let secondCarousel = document.querySelector('.secondCarousel');
-    teeshirt_men.forEach(function (element) {
-    
-        secondCarousel.innerHTML += 
-              `<div class=" carousel-item ${element.id == 1 ? "active" : ""}">
-                  <div class="col-md-3">
-                      <div class="card m-auto" id="${element.id}">
-                          <div class="card-img">
-                              <img src="${element.attachment}" class="img-fluid" alt="${element.alt}">
-                          </div>
-                      </div>
-                  </div>
-              </div>`
-})
-
-// image carousel teeshit men
-let thirdCarousel = document.querySelector('.thirdCarousel');
-    teeshirt_design.forEach(function (element) {
-    
-        thirdCarousel.innerHTML += 
-              `<div class=" carousel-item ${element.id == 1 ? "active" : ""}">
-                  <div class="col-md-3">
-                      <div class="card m-auto" id="${element.id}">
-                          <div class="card-img">
-                              <img src="${element.attachment}" class="img-fluid" alt="${element.alt}">
-                          </div>
-                      </div>
-                  </div>
-              </div>`
-})
+carousel(".firstCarousel", teeshirt_women);
+carousel(".secondCarousel", teeshirt_men);
+carousel(".thirdCarousel", teeshirt_design)
