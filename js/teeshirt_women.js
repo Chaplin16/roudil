@@ -60,10 +60,10 @@ const teeshirt_women = [
         link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-n3ch4",
         alt:"teeshirt blanc avec musique en noir"
     },
-    {
-        id:11,
-        attachment:"images/tee-shirt-women/Que_Musique_Noir_T-Shirt_Bruno_Roudil.png",
-        link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-x7jr2",
-        alt:"teeshirt noir avec musique en blanc"
-    }
+    // {
+    //     id:11,
+    //     attachment:"images/tee-shirt-women/Que_Musique_Noir_T-Shirt_Bruno_Roudil.png",
+    //     link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-x7jr2",
+    //     alt:"teeshirt noir avec musique en blanc"
+    // }
 ]
