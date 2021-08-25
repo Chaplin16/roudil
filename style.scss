@@ -71,7 +71,7 @@ nav {
         transform: rotate(-90deg)!important;
         font-size: 2.75rem;
         margin-left:-1.2rem!important;
-        margin-right: -1.5rem;
+        margin-right: -1rem;
     }
 }
 
@@ -82,11 +82,22 @@ nav {
     }
 }
 
-.photo img{
-    width: 12rem;
-    height: 17rem;
-    @include effect;
+.photo{
+    img{
+        width: 12rem;
+        height: 17rem;
+        @include effect;
+    }
+    h2{
+        color: $main--color!important;
+        text-shadow: -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+        &:hover{
+            color: white!important;
+        }
+    }
 }
+
 .card-title{
     left:15%;
     color: $main--color;
@@ -137,15 +148,19 @@ hr{
 @media all and (max-width: 450px){
     .title{
       font-size: 2.3rem;
-      padding-top:8rem;
+      padding-top: 6.5rem;
+      margin-left:0!important;
     }  
     .title #turn{
       font-size: 1.5rem;
       margin-left: -0.8rem!important;
     }
-    .test .photo img{
+     .photo img{
         width: 170px!important;
-        height:auto;
+        height:260px;
+    }
+    .photo h2{
+        top:30%!important;
     }
     .footer .copyright{
         width: 80%;
