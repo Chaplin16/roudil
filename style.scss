@@ -145,6 +145,16 @@ hr{
     }
 }
 
+//page info
+.schedule{
+    padding-top: 7rem!important;
+    & h2{
+        color: $main--color;
+        font-family: "Times New Roman", Times, serif;
+        margin-left: 1rem;
+    }
+}
+
 @media all and (max-width: 350px){
     .navbar {
         .navbar-brand{
@@ -175,15 +185,6 @@ hr{
     }
     .footer .copyright{
         width: 80%;
-    }
-    .schedule{
-        font-size: 1.7rem;
-        & h1,
-        & h2,
-        & h3,
-        & h4{
-            font-size: 2.2rem;
-        }
     }
 }
 
