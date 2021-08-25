@@ -145,6 +145,17 @@ hr{
     }
 }
 
+@media all and (max-width: 350px){
+    .navbar {
+        .navbar-brand{
+            font-size: 1.4rem!important;
+        }
+        .phone{
+            font-size: 0.9rem;
+        }
+    }
+}
+
 @media all and (max-width: 450px){
     .title{
       font-size: 2.3rem;
