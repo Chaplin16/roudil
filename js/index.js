@@ -34,7 +34,16 @@ function carousel(selector, data) {
                     arrows: true,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 1.5
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 630,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '50px',
+                    slidesToShow: 1
                 }
             },
             {
@@ -42,7 +51,7 @@ function carousel(selector, data) {
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '50px',
                     slidesToShow: 1
                 }
             }
