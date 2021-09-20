@@ -56,6 +56,8 @@ body {
   padding-bottom: 5px !important;
   margin-right: -13px;
   margin-left: 5px;
+  overflow: hidden;
+  font-size: 1.9rem;
 }
 
 .link a {
