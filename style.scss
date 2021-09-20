@@ -17,8 +17,6 @@ $main--color: #bb1011;
 }
 
 li {
-    font-family: "Times New Roman", Times, serif;
-    font-style: italic;
     &:hover {
         color: $main--color !important;
   } 
@@ -124,6 +122,7 @@ hr{
 
 //bas de page //
 .footer{
+    font-size: 0.9rem;
     column-gap: 1rem;
     flex-direction: column;
     & .mermaid{
@@ -132,6 +131,7 @@ hr{
     }
     & a{
         color: $main--color!important; 
+        font-size: 1rem;
         &:hover{
             color: #fff!important;
         }
@@ -192,6 +192,9 @@ hr{
   }
   .footer{
     flex-direction: row;
+    & .copyright{
+        padding-top:1rem;
+    }
   }
   .photo img{
       width: 25rem;
