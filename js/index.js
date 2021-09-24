@@ -9,7 +9,9 @@ function carousel(selector, data) {
         centerPadding: '100px',
         slidesToShow: 4,
         arrows: true,
+        speed:1000,
         adaptiveHeight: true,
+        autoplaySpeed:1200,
         autoplay: true,
         responsive: [{
                 breakpoint: 1300,
@@ -43,7 +45,7 @@ function carousel(selector, data) {
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding: '50px',
+                    centerPadding:  '65px',
                     slidesToShow: 1
                 }
             },

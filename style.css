@@ -134,12 +134,16 @@ hr {
 }
 
 .schedule {
-  padding-top: 7rem !important;
+  padding-top: 6.5rem !important;
+  max-width: 100%;
 }
-.schedule h2 {
-  color: #bb1011;
-  font-family: "Times New Roman", Times, serif;
-  margin-left: 1rem;
+.schedule img {
+  max-width: 30%;
+  box-shadow: 2px 1px 5px #000;
+}
+
+.return:hover {
+  color: red !important;
 }
 
 @media all and (max-width: 350px) {
@@ -193,6 +197,11 @@ hr {
   .photo img {
     width: 25rem;
     height: 35rem;
+  }
+}
+@media (min-width: 1000px) {
+  .schedule img {
+    max-width: 300px;
   }
 }
 
