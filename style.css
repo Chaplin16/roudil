@@ -161,8 +161,9 @@ hr {
     font-size: 1rem;
     margin-left: 5px;
     margin-right: -7px;
-    height: 10%;
+    height: 1.5rem !important;
     overflow: hidden;
+    line-height: 25px;
   }
 
   .photo img {
