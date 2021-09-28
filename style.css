@@ -91,16 +91,17 @@ hr {
 
 .card-img {
   margin-left: 0 !important;
-  height: 320px;
-  width: auto;
-  object-fit: contain;
+  height: 320px !important;
+  width: 90% !important;
+  object-fit: cover;
+  overflow: hidden;
 }
 .card-img img {
-  height: 90%;
-  width: auto !important;
+  height: 85% !important;
   filter: brightness(100%);
   -webkit-filter: brightness(100%);
   transition: transform 300ms;
+  overflow: hidden !important;
 }
 .card-img img:hover {
   filter: brightness(75%);

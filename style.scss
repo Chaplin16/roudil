@@ -102,13 +102,14 @@ hr{
 
 .card-img{
     margin-left: 0!important;
-    height: 320px;
-    width: auto;
-    object-fit: contain;
+    height: 320px!important;
+    width: 90%!important;
+    object-fit: cover;
+    overflow: hidden;
     & img{
-        height: 90%; 
-        width: auto!important;
+         height:85%!important; 
         @include effect;
+        overflow: hidden!important;
     }
 }
 
