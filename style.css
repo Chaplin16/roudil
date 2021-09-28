@@ -127,11 +127,10 @@ hr {
   margin-bottom: -5px;
 }
 .footer a {
-  color: #bb1011 !important;
   font-size: 1rem;
 }
 .footer a:hover {
-  color: #fff !important;
+  color: #bb1011 !important;
 }
 
 .schedule {

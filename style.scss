@@ -131,10 +131,9 @@ hr{
         margin-bottom:-5px;
     }
     & a{
-        color: $main--color!important; 
         font-size: 1rem;
         &:hover{
-            color: #fff!important;
+            color:$main--color!important;
         }
     }
 }
