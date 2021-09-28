@@ -6,20 +6,21 @@ function carousel(selector, data) {
     });
     $(element).slick({
         centerMode: true,
-        centerPadding: '100px',
-        slidesToShow: 4,
+        centerPadding: '0px',
+        slidesToShow: 5,
         arrows: true,
         speed:1000,
         adaptiveHeight: true,
         autoplaySpeed:1200,
         autoplay: true,
+
         responsive: [{
                 breakpoint: 1300,
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3.5
+                    centerPadding: '0px',
+                    slidesToShow: 4
                 }
             },
             {
@@ -27,8 +28,8 @@ function carousel(selector, data) {
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 2.5
+                    centerPadding: '0px',
+                    slidesToShow: 3
                 }
             },
             {
@@ -36,7 +37,7 @@ function carousel(selector, data) {
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding: '40px',
+                    centerPadding: '0px',
                     slidesToShow: 2
                 }
             },
@@ -45,8 +46,8 @@ function carousel(selector, data) {
                 settings: {
                     arrows: true,
                     centerMode: true,
-                    centerPadding:  '65px',
-                    slidesToShow: 1
+                    centerPadding:  '0px',
+                    slidesToShow: 2
                 }
             },
             {

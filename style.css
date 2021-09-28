@@ -48,7 +48,7 @@ body {
   font-size: 3rem;
 }
 .title #turn {
-  line-height: 1.95rem;
+  line-height: 1.87rem;
   padding-bottom: 5px !important;
   margin-right: -13px;
   margin-left: 5px;
@@ -91,12 +91,12 @@ hr {
 
 .card-img {
   margin-left: 0 !important;
-  height: 400px;
+  height: 320px;
   width: auto;
   object-fit: contain;
 }
 .card-img img {
-  height: 100%;
+  height: 90%;
   width: auto !important;
   filter: brightness(100%);
   -webkit-filter: brightness(100%);
@@ -164,7 +164,7 @@ hr {
   .title #turn {
     font-size: 1rem;
     margin-left: 5px;
-    margin-right: -7px;
+    margin-right: -8px;
     height: 1.5rem !important;
     overflow: hidden;
     line-height: 25px;
