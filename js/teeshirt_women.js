@@ -2,44 +2,44 @@
 const teeshirt_women = [
     {
         id:1,
-        attachment:"images/tee-shirt-women/Paysage_Femme_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-paysage-femme.jpg",
         link:"https://www.brunoroudil.com/shop/paysage-ondul-taille-s-t-shirt-artiste",
-        alt:"teeshirt crée par Bruno ROUDIL pour femme avec un paysage blanc"
+        alt:" tee shirt aigues mortes galerie roudil on textile paysage blanc "
     },
     {
         id:2,
-        attachment:"images/tee-shirt-women/ORTHO_Femme_front_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-ORTHO.jpg",
         link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-n3ch4-xcpgd",
-        alt:"teeshirt  cintré tendance ROUDIL pour femme 'Arthocondries' "
+        alt:"tee shirt aigues mortes galerie roudil on textile 'Arthocondries' "
     },
     {
         id:3,
-        attachment:"images/tee-shirt-women/OH_Femme_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-oh-femme.jpg",
         link:"https://www.brunoroudil.com/shop/paysage-ondul-taille-s-pd3g4",
-        alt:"teeshirt  pour femme avec silhouette blanche à Aigues-Mortes"
+        alt:"tee shirt aigues mortes galerie roudil on textile coton bio femme"
     },
     {
         id:4,
-        attachment:"images/tee-shirt-women/Bete_Femme_T-Shirt_Bruno_Roudil_Front.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-bete-femme.jpg",
         link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-8hp92"
-,        alt:"teeshirt pour femme par Bruno ROUDIL avec une bête noire"
+,        alt:"tee shirt aigues mortes galerie roudil on textile avec une bête noire"
     },
     {
         id:5,
-        attachment:"images/tee-shirt-women/Arbre_Femme_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-arbre-femme.jpg",
         link:"https://www.brunoroudil.com/shop/paysage-ondul-taille-s-pd3g4-sxnc2-3kskc",
-        alt:"teeshirt noir 100% coton bio  pour femme avec un arbre blanc par ROUDIL"
+        alt:"tee shirt aigues mortes galerie roudil on textile femme avec un arbre"
     },
     {
         id:6,
-        attachment:"images/tee-shirt-women/Ras_Femme_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-Ras-Femme.jpg",
         link:"https://www.brunoroudil.com/shop/paysage-ondul-taille-s-pd3g4-sxnc2",
-        alt:"teeshirt noir 'RAS'à la galerie ROUDIL"
+        alt:"tee shirt aigues mortes galerie roudil on textile ras"
     },
     {
         id:7,
-        attachment:"images/tee-shirt-women/Que_Musique_Blanc_T-Shirt_Bruno_Roudil.jpg",
+        attachment:"images/tee-shirt-women/tee-shirt-aigues-mortes-roudil-on-textile-musique-noire-femme.png",
         link:"https://www.brunoroudil.com/shop/sigles-ecritures-4266-femme-taille-s-n3ch4",
-        alt:"teeshirt blanc avec musique en noir à Aigues-Mortes "
+        alt:"tee shirt aigues mortes galerie roudil on textile musique en noir "
     }
 ]
